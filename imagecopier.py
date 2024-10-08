@@ -10,9 +10,9 @@ from urllib.parse import urljoin
 
 def main():
     # URL of the webpage to scrape
-    url = 'https://www.pikawiz.com/cards/platinum'
+    url = 'https://www.pikawiz.com/cards/noblevictories'
     # Folder to save images
-    save_folder = 'downloaded_images/Platinum'
+    save_folder = 'downloaded_images/Noble Victories'
     
     # Function to download images
     def download_image(url, folder):
