@@ -1,3 +1,4 @@
-.env/
+env/
 .venv/
-.__pyache__/
+__pyache__/
+server_practice/
