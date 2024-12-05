@@ -1,4 +1,4 @@
 env/
 .venv/
-__pyache__/
+__pycache__/
 server_practice/
