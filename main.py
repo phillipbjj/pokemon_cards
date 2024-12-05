@@ -6,7 +6,7 @@ from fastapi.templating import Jinja2Templates
 #from pydantic import BaseModel
 
 #Create FastAPI application
-app = FastAPI()
+app = FastAPI(title='CardShop')
 #Mount the static directory to serve static files. Used for sub-apps or static files.
 app.mount('/static', StaticFiles(directory='static'), name='static')
 # Set up Jinja2 templates
