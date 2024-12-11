@@ -1,0 +1,67 @@
+Create more GET endpoints for page navigation.
+Create GET functions for displaying cards.
+Create POST endpoints for creating accounts.
+Create PUT endpoints for updating items for sale in card shops.
+Create DELETE requests for users removing cards from their shop.
+Update templates for homepage, users login/register.
+Make new templates for displaying cards, for account setting page, card shop for users to display their cards for sale.
+Establish how data will be cached.
+Handle authorization for endpoint functions where it is necessary.
+Test and handle transaction process. 
+Establish database tables.
+
+Authentication & User Management:
+Password reset functionality
+Email verification system
+Profile management (including seller ratings/feedback)
+User dashboard for tracking sales/purchases
+
+Card Management:
+Search/filter system for cards
+Card condition grading system
+Pricing history tracking
+Watchlist/favoriting system
+Bulk upload/management for sellers
+Image upload and validation for cards
+
+Transaction System:
+Escrow system for secure transactions
+Payment processing integration
+Shipping label generation
+Dispute resolution process
+Transaction status tracking
+Commission/fee structure
+
+Security:
+Rate limiting for API endpoints
+Input validation
+CSRF protection
+XSS prevention
+Session management
+Secure storage of sensitive data
+
+Additional Features:
+Notification system (email/in-app)
+Message system between buyers/sellers
+Price alert system
+Market price analysis tools
+Recent sales history
+Featured listings
+User reviews/feedback system
+
+Infrastructure:
+CDN for card images
+Caching strategy for frequently accessed data
+Database indexing strategy
+API rate limiting
+Backup system
+Error logging/monitoring
+Performance monitoring
+
+Legal/Business:
+Terms of service
+Privacy policy
+Return/refund policy
+Seller guidelines
+Fee structure documentation
+API documentation for potential integrations

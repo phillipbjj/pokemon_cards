@@ -34,6 +34,10 @@ async def get_users(request: Request):
 async def get_users(request: Request):
     return templates.TemplateResponse("users_template.html", {"request": request}) 
 
+@app.get("/users/account", response_class=HTMLResponse)
+async def get_users(request: Request):
+    return templates.TemplateResponse("users_template.html", {"request": request}) 
+
 @app.get("/cards", response_class=HTMLResponse)
 async def get_cards(request: Request):
     return templates.TemplateResponse("cards_template.html", {"request": request}) 
