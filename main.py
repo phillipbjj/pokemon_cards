@@ -5,7 +5,12 @@ from fastapi.templating import Jinja2Templates
 from enum import Enum
 #from typing import Union
 #from pydantic import BaseModel
-
+"""from fastapi import FastAPI, HTTPException, status
+from pydantic import BaseModel, EmailStr, validator
+from typing import Optional
+import asyncpg
+import bcrypt
+from datetime import datetime"""
 #Enum for static user roles
 class UserRoles(str, Enum):
     admin = 'admin'
