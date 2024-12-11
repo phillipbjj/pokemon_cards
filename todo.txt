@@ -64,4 +64,4 @@ Privacy policy
 Return/refund policy
 Seller guidelines
 Fee structure documentation
-API documentation for potential integrations
+API documentation 
