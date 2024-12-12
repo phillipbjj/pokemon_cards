@@ -18,7 +18,7 @@ class UserRoles(str, Enum):
     shop_owner = 'shop_owner'
     guest = 'guest'
 
-class UserCreate(BaseModel):
+"""class UserCreate(BaseModel):
     username: str
     email: EmailStr
     password: str
@@ -58,7 +58,7 @@ async def get_db_pool():
         password='your_password',
         database='your_database',
         host='localhost'
-    )
+    )"""
         
 #Create FastAPI application
 app = FastAPI(title='CARDSHOP.IO')
@@ -89,7 +89,7 @@ async def get_users(request: Request):
 async def get_cards(request: Request):
     return templates.TemplateResponse("cards_template.html", {"request": request}) 
 
-@app.post("/register", status_code=status.HTTP_201_CREATED)
+"""@app.post("/register", status_code=status.HTTP_201_CREATED)
 async def register_user(user: UserCreate):
     try:
         # Get database connection from pool
@@ -154,3 +154,4 @@ async def register_user(user: UserCreate):
         # Close the connection pool
         if 'pool' in locals():
             await pool.close()
+"""
