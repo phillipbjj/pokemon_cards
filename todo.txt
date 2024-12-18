@@ -65,3 +65,11 @@ Return/refund policy
 Seller guidelines
 Fee structure documentation
 API documentation 
+
+
+
+Where to find card json format
+https://github.com/PokemonTCG/pokemon-tcg-data/blob/master/cards/en/base1.json
+Card information: 
+Card Name, HP, Type, Evolution stage, Attack(name, cost, damage, effect), Abilities(name, effect), Weakness, Resistance, Retreat Cost,
+Rarity, Set info(symbol, number, also group cards by set), Card/Flavor text, Expansion symbol, Standard or not, Illustrator
