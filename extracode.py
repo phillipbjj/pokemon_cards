@@ -53,7 +53,7 @@ async def get_db_pool():
         host='localhost'
     )"""
     
-    """@app.post("/register", status_code=status.HTTP_201_CREATED)
+"""@app.post("/register", status_code=status.HTTP_201_CREATED)
 async def register_user(user: UserCreate):
     try:
         # Get database connection from pool
